@@ -4,7 +4,7 @@
 
 ## 一、PHP 篇
 
-- [【试读】AI 时代的 PHP 开发者](../docs/php/ai时代的php开发者.md)
+- [【试读】AI 时代的 PHP 开发者](./docs/php/ai时代的php开发者.md)
 - [【试读】编程语言基础](./docs/php/编程语言简介.md)
 - 【试读】PHP 与编程范式
 - [【试读】当下最流行的 PHP 本地环境搭建方式](./docs/php/当下最流行的PHP本地环境搭建方式.md)
