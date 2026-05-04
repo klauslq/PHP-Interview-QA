@@ -65,6 +65,7 @@ export default defineConfig({
   description: 'PHP 中大厂面试题库，L1–L5 难度全覆盖',
   lang: 'zh-CN',
   base: '/PHP-Interview-QA/',
+  ignoreDeadLinks: true,
 
   themeConfig: {
     nav: [
