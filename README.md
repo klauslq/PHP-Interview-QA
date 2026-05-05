@@ -4,10 +4,13 @@
 [![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Last Updated](https://img.shields.io/badge/最后更新-2026--05--02-green.svg)](#)
+[![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
 
 > PHP 很没前途，请把工作留给我，谢谢！
 
 系统性整理 PHP 技术面试高频问题，覆盖 PHP 语言、数据结构与算法、计算机网络、设计模式、存储与中间件、架构与分布式、操作系统与服务器、安全、Web、番外等方向。每道题包含一句话结论、体系讲解、追问链、易错点与可运行代码示例。
+
+📖 在线阅读：**[colinlet.github.io/PHP-Interview-QA](https://colinlet.github.io/PHP-Interview-QA/)**
 
 ---
 
