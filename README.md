@@ -3,9 +3,9 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-55-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-64-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
-[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--07-green.svg)](#)
+[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--08-green.svg)](#)
 
 > PHP 很没前途，请把工作留给我，谢谢！
 
@@ -70,13 +70,13 @@
 
 | 主题 | L1 | L2 | L3 | 合计 |
 |---|:---:|:---:|:---:|:---:|
-| PHP 语言篇 | 🔴×4 🟡×2 | 🔴×8 🟡×3 | 🔴×1 🟡×2 | **20** |
+| PHP 语言篇 | 🔴×7 🟡×4 | 🔴×8 🟡×3 | 🔴×2 🟡×4 | **28** |
 | 计算机网络篇 | 🔴×1 | 🔴×1 | 🔴×1 | **3** |
 | 设计模式篇 | 🔴×1 | 🔴×1 | 🟡×1 | **3** |
 | 存储与中间件篇 | 🔴×3 | 🔴×5 | 🔴×2 | **10** |
 | Web 篇 | 🔴×2 | 🔴×1 | 🔴×1 | **4** |
 | 安全篇 | 🔴×1 | 🔴×1 | 🔴×1 | **3** |
-| 数据结构与算法篇 | 🔴×3 🟡×2 | 🔴×1 | 🟡×1 | **7** |
+| 数据结构与算法篇 | 🔴×4 🟡×2 | 🔴×1 | 🟡×1 | **8** |
 | 操作系统与服务器篇 | 🔴×1 | 🔴×1 | — | **3** |
 | 架构与分布式篇 | — | — | — | **2** |
 | 番外篇 | — | 🟡×1 | ⚪×1 | **2** |
@@ -110,6 +110,14 @@
 | L3 | 高 | [PHP 的垃圾回收机制是如何工作的](docs/php/PHP垃圾回收机制.md) |
 | L3 | 中 | [PHP zval 内部结构是什么？写时复制（COW）机制如何工作？](docs/php/zval内部结构与写时复制机制.md) |
 | L3 | 中 | [WeakReference 与 WeakMap 如何避免引用计数陷阱？](docs/php/WeakReference与WeakMap避免引用计数陷阱.md) |
+| L1 | 高 | [PHP 浮点数精度问题是什么？如何用 bcmath 解决？](docs/php/PHP浮点数精度问题与bcmath解决方案.md) |
+| L1 | 高 | [PHP 8.0 的 match 表达式与 switch 有什么区别？](docs/php/PHP8的match表达式与switch的区别.md) |
+| L1 | 高 | [PHP 8.0 的 nullsafe 运算符（?->）是什么？与 ?? 有何区别？](docs/php/PHP8的nullsafe运算符.md) |
+| L1 | 中 | [PHP 类型强转有哪些方式？各种类型互转的规则是什么？](docs/php/PHP类型强转规则与类型转换函数.md) |
+| L1 | 中 | [PHP 8.0 的命名参数（Named Arguments）是什么？有哪些使用场景？](docs/php/PHP8的命名参数.md) |
+| L3 | 高 | [OPcache 编译缓存的工作原理是什么？](docs/php/OPcache编译缓存的工作原理.md) |
+| L3 | 中 | [PHP JIT 是什么？Tracing 与 Function 两种模式有何区别？](docs/php/PHP_JIT的工作模式与适用场景.md) |
+| L3 | 中 | [PHP JIT 是什么？Tracing 与 Function 两种模式有何区别？](docs/php/PHP_JIT的工作模式与适用场景.md) |
 
 > 更多题目持续产出中，按批次滚动更新。
 
@@ -122,6 +130,7 @@
 | L1 | 高 | [算法复杂度分析与 Big-O 表示法](docs/algorithm/算法复杂度分析与Big-O表示法.md) |
 | L2 | 高 | [链表翻转与 Floyd 环检测](docs/algorithm/链表翻转与Floyd环检测.md) |
 | L3 | 中 | [二分查找的统一模板：搜索边界与答案二分](docs/algorithm/二分查找的统一模板与搜索边界.md) |
+| L1 | 高 | [常见数据结构基础操作的时间复杂度是多少？](docs/algorithm/常见数据结构基础操作时间复杂度速查.md) |
 
 ---
 

@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "PHP 面试问答"
   text: "PHP 中大厂面试题库"
-  tagline: "55 道精选题 · L1–L5 难度全覆盖 · 系统化备战面试"
+  tagline: "59 道精选题 · L1–L5 难度全覆盖 · 系统化备战面试"
   actions:
     - theme: brand
       text: 按主题浏览 →
@@ -16,13 +16,13 @@ hero:
 features:
   - icon: 🐘
     title: PHP 语言篇
-    details: 18 题 · L1–L3 · 涵盖变量类型、OOP 核心、内存管理、OPcache 与 JIT
+    details: 26 题 · L1–L3 · 涵盖变量类型、OOP 核心、内存管理、OPcache 与 JIT
     link: /docs/php/
     linkText: 开始学习
 
   - icon: 📊
     title: 数据结构与算法篇
-    details: 7 题 · L1–L3 · 数据结构分类、复杂度推导、排序评价、最坏/最好口径、链表与二分
+    details: 4 题 · L1–L3 · 数据结构分类、复杂度推导、排序评价、最坏/最好口径、链表与二分
     link: /docs/algorithm/
     linkText: 开始学习
 

@@ -10,6 +10,11 @@
 | 高 | [PHP 中引用传递与值传递的区别](PHP中引用传递与值传递的区别.md) |
 | 中 | [PHP 单引号与双引号字符串的区别](PHP单引号与双引号字符串的区别.md) |
 | 中 | [PHP 动态语言特性与静态语言的区别](PHP动态语言特性与静态语言的区别.md) |
+| 高 | [PHP 浮点数精度问题是什么？如何用 bcmath 解决？](PHP浮点数精度问题与bcmath解决方案.md) |
+| 高 | [PHP 8.0 的 match 表达式与 switch 有什么区别？](PHP8的match表达式与switch的区别.md) |
+| 高 | [PHP 8.0 的 nullsafe 运算符（?->）是什么？与 ?? 有何区别？](PHP8的nullsafe运算符.md) |
+| 中 | [PHP 类型强转有哪些方式？各种类型互转的规则是什么？](PHP类型强转规则与类型转换函数.md) |
+| 中 | [PHP 8.0 的命名参数（Named Arguments）是什么？有哪些使用场景？](PHP8的命名参数.md) |
 
 ## L2 中级
 
@@ -33,3 +38,6 @@
 | 高 | [PHP 的垃圾回收机制是如何工作的](PHP垃圾回收机制.md) |
 | 中 | [PHP zval 内部结构是什么？写时复制（COW）机制如何工作？](zval内部结构与写时复制机制.md) |
 | 中 | [WeakReference 与 WeakMap 如何避免引用计数陷阱？](WeakReference与WeakMap避免引用计数陷阱.md) |
+| 高 | [OPcache 编译缓存的工作原理是什么？](OPcache编译缓存的工作原理.md) |
+| 中 | [PHP JIT 是什么？Tracing 与 Function 两种模式有何区别？](PHP_JIT的工作模式与适用场景.md) |
+| 中 | [PHP JIT 是什么？Tracing 与 Function 两种模式有何区别？](PHP_JIT的工作模式与适用场景.md) |
