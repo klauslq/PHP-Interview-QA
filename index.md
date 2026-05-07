@@ -20,16 +20,10 @@ features:
     link: /docs/php/
     linkText: 开始学习
 
-  - icon: 🗄️
-    title: 存储与中间件篇
-    details: 9 题 · L1–L3 · MySQL 索引与事务、Redis 应用模式与高级特性
-    link: /docs/storage/
-    linkText: 开始学习
-
-  - icon: 🌐
-    title: Web 篇
-    details: 4 题 · L1–L3 · HTTP 协议、框架生命周期、中间件与 IoC 容器
-    link: /docs/web/
+  - icon: 📊
+    title: 数据结构与算法篇
+    details: 7 题 · L1–L3 · 数据结构分类、复杂度推导、排序评价、最坏/最好口径、链表与二分
+    link: /docs/algorithm/
     linkText: 开始学习
 
   - icon: 📡
@@ -38,22 +32,22 @@ features:
     link: /docs/network/
     linkText: 开始学习
 
-  - icon: 🔒
-    title: 安全篇
-    details: 3 题 · L1–L3 · XSS/CSRF 防御、SQL 注入、文件上传安全
-    link: /docs/security/
-    linkText: 开始学习
-
   - icon: 🏛️
     title: 设计模式篇
     details: 3 题 · L1–L3 · GoF 三大分类、工厂模式选型、SOLID 原则
     link: /docs/design-pattern/
     linkText: 开始学习
 
-  - icon: 📊
-    title: 数据结构与算法篇
-    details: 3 题 · L1–L3 · 复杂度分析、链表操作、二分查找模板
-    link: /docs/algorithm/
+  - icon: 🗄️
+    title: 存储与中间件篇
+    details: 9 题 · L1–L3 · MySQL 索引与事务、Redis 应用模式与高级特性
+    link: /docs/storage/
+    linkText: 开始学习
+
+  - icon: 🏗️
+    title: 架构与分布式篇
+    details: 2 题 · L4–L5 · 微服务分布式事务选型、短链系统设计（三候选方案）
+    link: /docs/architecture/
     linkText: 开始学习
 
   - icon: 🖥️
@@ -62,10 +56,16 @@ features:
     link: /docs/server/
     linkText: 开始学习
 
-  - icon: 🏗️
-    title: 架构与分布式篇
-    details: 2 题 · L4–L5 · 微服务分布式事务选型、短链系统设计（三候选方案）
-    link: /docs/architecture/
+  - icon: 🔒
+    title: 安全篇
+    details: 3 题 · L1–L3 · XSS/CSRF 防御、SQL 注入、文件上传安全
+    link: /docs/security/
+    linkText: 开始学习
+
+  - icon: 🌐
+    title: Web 篇
+    details: 4 题 · L1–L3 · HTTP 协议、框架生命周期、中间件与 IoC 容器
+    link: /docs/web/
     linkText: 开始学习
 
   - icon: 📝

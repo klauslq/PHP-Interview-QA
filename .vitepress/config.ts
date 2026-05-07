@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { readdirSync, readFileSync } from 'fs'
 import { join, basename, dirname } from 'path'
 import { fileURLToPath } from 'url'
@@ -60,12 +61,11 @@ for (const [dir, name] of TOPICS) {
   sidebar[`/docs/${dir}/`] = [topicSidebar(dir, name)]
 }
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   title: 'PHP 面试问答',
   description: 'PHP 中大厂面试题库，L1–L5 难度全覆盖',
   lang: 'zh-CN',
   base: '/PHP-Interview-QA/',
-  ignoreDeadLinks: true,
 
   themeConfig: {
     nav: [
@@ -104,4 +104,4 @@ export default defineConfig({
       label: '本题结构',
     },
   },
-})
+}))

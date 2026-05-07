@@ -39,7 +39,7 @@ created: 2026-05-04
 
 ```mermaid
 flowchart LR
-    subgraph 链表（有环，相遇点因链表结构而异）
+    subgraph "链表（有环，相遇点因链表结构而异）"
         A((1)) --> B((2)) --> C((3\n相遇示意)):::meeting --> D((4))
         D --> B
     end
