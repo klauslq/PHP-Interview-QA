@@ -3,7 +3,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-64-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-68-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
 [![Last Updated](https://img.shields.io/badge/最后更新-2026--05--08-green.svg)](#)
 
@@ -76,7 +76,7 @@
 | 存储与中间件篇 | 🔴×3 | 🔴×5 | 🔴×2 | **10** |
 | Web 篇 | 🔴×2 | 🔴×1 | 🔴×1 | **4** |
 | 安全篇 | 🔴×1 | 🔴×1 | 🔴×1 | **3** |
-| 数据结构与算法篇 | 🔴×4 🟡×2 | 🔴×1 | 🟡×1 | **8** |
+| 数据结构与算法篇 | 🔴×7 🟡×3 | 🔴×1 | 🟡×1 | **12** |
 | 操作系统与服务器篇 | 🔴×1 | 🔴×1 | — | **3** |
 | 架构与分布式篇 | — | — | — | **2** |
 | 番外篇 | — | 🟡×1 | ⚪×1 | **2** |
@@ -128,9 +128,13 @@
 | 难度 | 频率 | 题目 |
 |:---:|:---:|---|
 | L1 | 高 | [算法复杂度分析与 Big-O 表示法](docs/algorithm/算法复杂度分析与Big-O表示法.md) |
+| L1 | 高 | [常见数据结构基础操作的时间复杂度是多少？](docs/algorithm/常见数据结构基础操作时间复杂度速查.md) |
+| L1 | 高 | [双指针的两种形式：对撞指针与快慢指针](docs/algorithm/双指针的两种形式：对撞指针与快慢指针.md) |
+| L1 | 高 | [原地移除数组中的指定元素（快慢指针）](docs/algorithm/原地移除数组中的指定元素（快慢指针）.md) |
+| L1 | 高 | [固定大小滑动窗口求子数组最大和](docs/algorithm/固定大小滑动窗口求子数组最大和.md) |
+| L1 | 中 | [双指针判断回文字符串](docs/algorithm/双指针判断回文字符串.md) |
 | L2 | 高 | [链表翻转与 Floyd 环检测](docs/algorithm/链表翻转与Floyd环检测.md) |
 | L3 | 中 | [二分查找的统一模板：搜索边界与答案二分](docs/algorithm/二分查找的统一模板与搜索边界.md) |
-| L1 | 高 | [常见数据结构基础操作的时间复杂度是多少？](docs/algorithm/常见数据结构基础操作时间复杂度速查.md) |
 
 ---
 
