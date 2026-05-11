@@ -15,6 +15,9 @@
 | 高 | [PHP 8.0 的 nullsafe 运算符（?->）是什么？与 ?? 有何区别？](PHP8的nullsafe运算符.md) |
 | 中 | [PHP 类型强转有哪些方式？各种类型互转的规则是什么？](PHP类型强转规则与类型转换函数.md) |
 | 中 | [PHP 8.0 的命名参数（Named Arguments）是什么？有哪些使用场景？](PHP8的命名参数.md) |
+| 高 | [declare(strict_types=1) 的作用是什么？严格模式与强制模式有何区别？](declare(strict_types=1)的作用与严格模式行为.md) |
+| 中 | [PHP 的 never 返回类型表示什么？与 void 有何区别？](never返回类型与void的区别.md) |
+| 中 | [PHP 的 union types（PHP 8.0）与交集类型（PHP 8.1）有何区别？各自有哪些使用约束？](union_types与交集类型的区别与约束.md) |
 
 ## L2 中级
 
@@ -41,3 +44,6 @@
 | 高 | [OPcache 编译缓存的工作原理是什么？](OPcache编译缓存的工作原理.md) |
 | 中 | [PHP JIT 是什么？Tracing 与 Function 两种模式有何区别？](PHP_JIT的工作模式与适用场景.md) |
 | 中 | [PHP JIT 是什么？Tracing 与 Function 两种模式有何区别？](PHP_JIT的工作模式与适用场景.md) |
+| 中 | [PHP 请求生命周期的四个阶段](PHP请求生命周期的四个阶段.md) |
+| 中 | [Fiber 与 Generator 有栈协程与无栈协程的本质区别](Fiber与Generator有栈协程与无栈协程的本质区别.md) |
+| 中 | [Fiber 与 Swoole 协程的能力边界对比](Fiber与Swoole协程的能力边界对比.md) |

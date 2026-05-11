@@ -3,9 +3,9 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-68-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-74-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
-[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--08-green.svg)](#)
+[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--11-green.svg)](#)
 
 > PHP 很没前途，请把工作留给我，谢谢！
 
@@ -70,7 +70,7 @@
 
 | 主题 | L1 | L2 | L3 | 合计 |
 |---|:---:|:---:|:---:|:---:|
-| PHP 语言篇 | 🔴×7 🟡×4 | 🔴×8 🟡×3 | 🔴×2 🟡×4 | **28** |
+| PHP 语言篇 | 🔴×8 🟡×6 | 🔴×8 🟡×3 | 🔴×2 🟡×7 | **34** |
 | 计算机网络篇 | 🔴×1 | 🔴×1 | 🔴×1 | **3** |
 | 设计模式篇 | 🔴×1 | 🔴×1 | 🟡×1 | **3** |
 | 存储与中间件篇 | 🔴×3 | 🔴×5 | 🔴×2 | **10** |
@@ -118,6 +118,12 @@
 | L3 | 高 | [OPcache 编译缓存的工作原理是什么？](docs/php/OPcache编译缓存的工作原理.md) |
 | L3 | 中 | [PHP JIT 是什么？Tracing 与 Function 两种模式有何区别？](docs/php/PHP_JIT的工作模式与适用场景.md) |
 | L3 | 中 | [PHP JIT 是什么？Tracing 与 Function 两种模式有何区别？](docs/php/PHP_JIT的工作模式与适用场景.md) |
+| L1 | 高 | [declare(strict_types=1) 的作用是什么？严格模式与强制模式有何区别？](docs/php/declare(strict_types=1)的作用与严格模式行为.md) |
+| L1 | 中 | [PHP 的 never 返回类型表示什么？与 void 有何区别？](docs/php/never返回类型与void的区别.md) |
+| L1 | 中 | [PHP 的 union types（PHP 8.0）与交集类型（PHP 8.1）有何区别？各自有哪些使用约束？](docs/php/union_types与交集类型的区别与约束.md) |
+| L3 | 中 | [PHP 请求生命周期的四个阶段](docs/php/PHP请求生命周期的四个阶段.md) |
+| L3 | 中 | [Fiber 与 Generator 有栈协程与无栈协程的本质区别](docs/php/Fiber与Generator有栈协程与无栈协程的本质区别.md) |
+| L3 | 中 | [Fiber 与 Swoole 协程的能力边界对比](docs/php/Fiber与Swoole协程的能力边界对比.md) |
 
 > 更多题目持续产出中，按批次滚动更新。
 
