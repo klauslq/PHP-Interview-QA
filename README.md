@@ -265,6 +265,13 @@
 
 ## 参与贡献
 
+感谢所有为本项目提交过 PR / commit 的同学（头像由 GitHub 统计生成，点击可查看完整列表）：
+
+<a href="https://github.com/colinlet/PHP-Interview-QA/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=colinlet/PHP-Interview-QA" alt="PHP-Interview-QA contributors" />
+</a>
+
+
 欢迎提 Issue 或 PR，贡献方式包括：
 
 - 🐛 **勘误**：发现事实性错误、过时内容或失效链接
