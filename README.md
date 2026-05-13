@@ -3,7 +3,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-85-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-92-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
 [![Last Updated](https://img.shields.io/badge/最后更新-2026--05--13-green.svg)](#)
 
@@ -71,7 +71,7 @@
 | 主题 | L1 | L2 | L3 | 合计 |
 |---|:---:|:---:|:---:|:---:|
 | PHP 语言篇 | 🔴×8 🟡×6 | 🔴×8 🟡×3 | 🔴×2 🟡×7 | **34** |
-| 计算机网络篇 | 🔴×3 | 🔴×1 | 🔴×1 | **5** |
+| 计算机网络篇 | 🔴×3 | 🔴×3 🟡×2 | 🔴×4 | **12** |
 | 设计模式篇 | 🔴×1 | 🔴×1 | 🟡×1 | **3** |
 | 存储与中间件篇 | 🔴×3 | 🔴×5 | 🔴×2 | **10** |
 | Web 篇 | 🔴×2 | 🔴×1 | 🔴×1 | **4** |
@@ -181,6 +181,13 @@
 | L3 | 高 | [HTTP/2 与 HTTP/3 的核心改进与底层原理](docs/network/HTTP2与HTTP3核心改进与底层原理.md) |
 | L1 | 高 | [HTTP 缓存机制：强缓存与协商缓存的区别](docs/network/HTTP缓存机制强缓存与协商缓存的区别.md) |
 | L1 | 高 | [HTTP 的无状态特性与会话保持方案](docs/network/HTTP无状态特性与会话保持方案.md) |
+| L2 | 中 | [TCP 粘包的成因与应用层拆包方案](docs/network/TCP粘包的成因与应用层拆包方案.md) |
+| L2 | 中 | [DNS 解析流程与 CDN 接入原理](docs/network/DNS解析流程与CDN接入原理.md) |
+| L2 | 高 | [IO 模型：同步/异步与阻塞/非阻塞的区别](docs/network/IO模型同步异步与阻塞非阻塞的区别.md) |
+| L2 | 高 | [PHP 网络并发与连接复用策略](docs/network/PHP网络并发与连接复用策略.md) |
+| L3 | 高 | [epoll 为什么比 select/poll 性能好？IO 多路复用机制对比](docs/network/epoll与select-poll的机制对比.md) |
+| L3 | 高 | [epoll 的水平触发（LT）与边缘触发（ET）有什么区别？](docs/network/epoll的LT与ET触发模式.md) |
+| L3 | 高 | [Reactor 模式是如何工作的？与多线程模型相比优势在哪？](docs/network/Reactor模式与事件驱动模型原理.md) |
 
 ---
 
