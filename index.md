@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "PHP 面试问答"
   text: "PHP 中大厂面试题库"
-  tagline: "78 道精选题 · L1–L5 难度全覆盖 · 系统化备战面试"
+  tagline: "80 道精选题 · L1–L5 难度全覆盖 · 系统化备战面试"
   actions:
     - theme: brand
       text: 按主题浏览 →
@@ -28,7 +28,7 @@ features:
 
   - icon: 📡
     title: 计算机网络篇
-    details: 3 题 · L1–L3 · TCP/HTTP、TLS 握手、HTTP/2 与 HTTP/3 原理
+    details: 5 题 · L1–L3 · TCP/HTTP、TLS 握手、HTTP/2 与 HTTP/3 原理
     link: /docs/network/
     linkText: 开始学习
 

@@ -3,7 +3,7 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-83-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-85-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
 [![Last Updated](https://img.shields.io/badge/最后更新-2026--05--13-green.svg)](#)
 
@@ -71,7 +71,7 @@
 | 主题 | L1 | L2 | L3 | 合计 |
 |---|:---:|:---:|:---:|:---:|
 | PHP 语言篇 | 🔴×8 🟡×6 | 🔴×8 🟡×3 | 🔴×2 🟡×7 | **34** |
-| 计算机网络篇 | 🔴×1 | 🔴×1 | 🔴×1 | **3** |
+| 计算机网络篇 | 🔴×3 | 🔴×1 | 🔴×1 | **5** |
 | 设计模式篇 | 🔴×1 | 🔴×1 | 🟡×1 | **3** |
 | 存储与中间件篇 | 🔴×3 | 🔴×5 | 🔴×2 | **10** |
 | Web 篇 | 🔴×2 | 🔴×1 | 🔴×1 | **4** |
@@ -179,6 +179,8 @@
 | L1 | 高 | [GET 和 POST 请求的区别](docs/network/GET和POST请求的区别.md) |
 | L2 | 高 | [HTTPS 的 TLS 握手流程与加密分工](docs/network/HTTPS的TLS握手流程与加密分工.md) |
 | L3 | 高 | [HTTP/2 与 HTTP/3 的核心改进与底层原理](docs/network/HTTP2与HTTP3核心改进与底层原理.md) |
+| L1 | 高 | [HTTP 缓存机制：强缓存与协商缓存的区别](docs/network/HTTP缓存机制强缓存与协商缓存的区别.md) |
+| L1 | 高 | [HTTP 的无状态特性与会话保持方案](docs/network/HTTP无状态特性与会话保持方案.md) |
 
 ---
 
