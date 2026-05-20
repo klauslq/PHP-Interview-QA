@@ -3,9 +3,9 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-92-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-96-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
-[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--13-green.svg)](#)
+[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--20-green.svg)](#)
 
 > PHP 很没前途，请把工作留给我，谢谢！
 
@@ -72,7 +72,7 @@
 |---|:---:|:---:|:---:|:---:|
 | PHP 语言篇 | 🔴×8 🟡×6 | 🔴×8 🟡×3 | 🔴×2 🟡×7 | **34** |
 | 计算机网络篇 | 🔴×3 | 🔴×3 🟡×2 | 🔴×4 | **12** |
-| 设计模式篇 | 🔴×1 | 🔴×1 | 🟡×1 | **3** |
+| 设计模式篇 | 🔴×5 | 🔴×1 | 🟡×1 | **7** |
 | 存储与中间件篇 | 🔴×3 | 🔴×5 | 🔴×2 | **10** |
 | Web 篇 | 🔴×2 | 🔴×1 | 🔴×1 | **4** |
 | 安全篇 | 🔴×1 | 🔴×1 | 🔴×1 | **3** |
@@ -198,6 +198,8 @@
 | L1 | 高 | [设计模式的三大分类与意图](docs/design-pattern/设计模式的三大分类与意图.md) |
 | L2 | 高 | [工厂方法与抽象工厂的区别及选型](docs/design-pattern/工厂方法与抽象工厂的区别及选型.md) |
 | L3 | 中 | [里氏替换原则的行为契约与继承陷阱](docs/design-pattern/里氏替换原则的行为契约与继承陷阱.md) |
+| L1 | 高 | [Laravel 框架特性与 GoF 设计模式的对应关系](docs/design-pattern/Laravel框架特性与GoF设计模式的对应关系.md) |
+| L1 | 高 | [Laravel Facade 命名陷阱——它是"静态代理"还是"门面模式"？](docs/design-pattern/Laravel-Facade命名陷阱——静态代理还是门面模式.md) |
 
 ---
 
