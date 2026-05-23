@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "PHP 面试问答"
   text: "PHP 中大厂面试题库"
-  tagline: "95 道精选题 · L1–L5 难度全覆盖 · 系统化备战面试"
+  tagline: "123 道精选题 · L1–L5 难度全覆盖 · 系统化备战面试"
   actions:
     - theme: brand
       text: 按主题浏览 →
@@ -40,25 +40,25 @@ features:
 
   - icon: 🗄️
     title: 存储与中间件篇
-    details: 9 题 · L1–L3 · MySQL 索引与事务、Redis 应用模式与高级特性
+    details: 14 题 · L1–L3 · MySQL 索引与事务、Redis 应用模式与高级特性
     link: /docs/storage/
     linkText: 开始学习
 
   - icon: 🏗️
     title: 架构与分布式篇
-    details: 2 题 · L4–L5 · 微服务分布式事务选型、短链系统设计（三候选方案）
+    details: 12 题 · L2–L5 · 微服务分布式事务选型、短链系统设计（三候选方案）
     link: /docs/architecture/
     linkText: 开始学习
 
   - icon: 🖥️
     title: 操作系统与服务器篇
-    details: 3 题 · L1/L2/L4 · Linux 命令、PHP-FPM 进程模型、Swoole 选型决策
+    details: 13 题 · L1/L2/L4 · Linux 命令、PHP-FPM 进程模型、Swoole 选型决策
     link: /docs/server/
     linkText: 开始学习
 
   - icon: 🔒
     title: 安全篇
-    details: 3 题 · L1–L3 · XSS/CSRF 防御、SQL 注入、文件上传安全
+    details: 6 题 · L1–L3 · XSS/CSRF 防御、SQL 注入、文件上传安全
     link: /docs/security/
     linkText: 开始学习
 
