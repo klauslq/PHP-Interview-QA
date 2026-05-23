@@ -45,14 +45,14 @@ function topicSidebar(topicDir: string, topicName: string): SidebarItem {
 
 const TOPICS: [string, string][] = [
   ['php',            'PHP 语言篇'],
-  ['storage',        '存储与中间件篇'],
-  ['web',            'Web 篇'],
-  ['network',        '计算机网络篇'],
-  ['security',       '安全篇'],
-  ['design-pattern', '设计模式篇'],
   ['algorithm',      '数据结构与算法篇'],
-  ['server',         '操作系统与服务器篇'],
+  ['network',        '计算机网络篇'],
+  ['design-pattern', '设计模式篇'],
+  ['storage',        '存储与中间件篇'],
   ['architecture',   '架构与分布式篇'],
+  ['server',         '操作系统与服务器篇'],
+  ['security',       '安全篇'],
+  ['web',            'Web 篇'],
   ['misc',           '番外篇'],
 ]
 

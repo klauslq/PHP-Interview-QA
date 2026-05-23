@@ -1,8 +1,8 @@
 # 难度索引（L1 → L5）
 
-> 共 95 题，按难度分级 · 同级内按主题优先级排序
+> 共 123 题，按难度分级 · 同级内按主题优先级排序
 
-## L1 初级（33 题）
+## L1 初级（41 题）
 
 | 主题 | 频率 | 题目 |
 |---|:---:|---|
@@ -35,12 +35,20 @@
 | 存储与中间件篇 | 高 | [MySQL 中各种 JOIN 的区别是什么？](storage/MySQL各种JOIN的区别.md) |
 | 存储与中间件篇 | 高 | [Redis 有哪五种基本数据类型？各自适用什么场景？](storage/Redis五种数据类型与适用场景.md) |
 | 存储与中间件篇 | 高 | [什么是数据库三范式？各范式分别解决了什么问题？](storage/数据库三范式与反范式设计.md) |
+| 操作系统与服务器篇 | 高 | [Linux 文件系统基础——inode、硬链接与软链接、权限位](server/Linux文件系统基础.md) |
 | 操作系统与服务器篇 | 高 | [PHP 开发常用 Linux 命令：文件查找、进程与网络诊断](server/PHP开发常用Linux命令.md) |
+| 操作系统与服务器篇 | 高 | [crontab 计划任务——表达式语法、环境变量陷阱、日志与调试](server/crontab计划任务.md) |
+| 操作系统与服务器篇 | 中 | [Vim 常用操作——模式切换、搜索替换、保存退出](server/Vim常用操作.md) |
+| 操作系统与服务器篇 | 中 | [sed 流编辑器常用操作——行定址、s 替换、与 awk 的职责分工](server/sed流编辑器常用操作.md) |
+| 操作系统与服务器篇 | 低 | [nice 与 renice 进程优先级——nice 值范围、对 PHP-FPM/Nginx 的影响](server/nice与renice进程优先级.md) |
+| 安全篇 | 高 | [CSRF 攻防基础](security/CSRF攻防基础.md) |
+| 安全篇 | 高 | [SQL 注入防御基础](security/SQL注入防御基础.md) |
 | 安全篇 | 高 | [XSS 攻击类型与防御方案](security/XSS攻击类型与防御方案.md) |
+| 安全篇 | 高 | [密码学基础概念辨析](security/密码学基础概念辨析.md) |
 | Web 篇 | 高 | [HTTP 常见状态码含义与 301 和 302 的区别](web/HTTP状态码含义与301和302的区别.md) |
 | Web 篇 | 高 | [PHP 主流框架对比与选型概览](web/PHP主流框架对比与选型概览.md) |
 
-## L2 中级（34 题）
+## L2 中级（44 题）
 
 | 主题 | 频率 | 题目 |
 |---|:---:|---|
@@ -73,13 +81,23 @@
 | 存储与中间件篇 | 高 | [MySQL 索引为什么用 B+ 树？聚簇索引与非聚簇索引有什么区别？](storage/MySQL索引为什么用B+树与聚簇索引.md) |
 | 存储与中间件篇 | 高 | [缓存穿透、缓存击穿与缓存雪崩的区别及防护方案](storage/缓存穿透击穿雪崩的区别及防护方案.md) |
 | 存储与中间件篇 | 高 | [什么是覆盖索引？联合索引的最左前缀原则是什么？](storage/覆盖索引与最左前缀原则.md) |
+| 架构与分布式篇 | 高 | [AP vs CP：Eureka与ZooKeeper的注册中心选型对比](architecture/APvsCP：Eureka与ZooKeeper的注册中心选型对比.md) |
+| 架构与分布式篇 | 高 | [BASE理论：最终一致性的三要素与实现方式](architecture/BASE理论：最终一致性的三要素与实现方式.md) |
+| 架构与分布式篇 | 高 | [CAP定理：一致性、可用性与分区容忍的三角权衡](architecture/CAP定理：一致性、可用性与分区容忍的三角权衡.md) |
+| 架构与分布式篇 | 高 | [一致性哈希：虚拟节点原理与数据迁移最小化](architecture/一致性哈希：虚拟节点原理与数据迁移最小化.md) |
+| 架构与分布式篇 | 中 | [PACELC模型：延迟维度对CAP的补充](architecture/PACELC模型：延迟维度对CAP的补充.md) |
+| 操作系统与服务器篇 | 高 | [Nginx SSL 终止与 HTTPS 安全配置](server/Nginx-SSL终止与HTTPS安全配置.md) |
+| 操作系统与服务器篇 | 高 | [Nginx rewrite 规则四种 flag 的行为差异](server/Nginx-rewrite规则四种flag的行为差异.md) |
+| 操作系统与服务器篇 | 高 | [Nginx 反向代理与 upstream 负载均衡配置](server/Nginx反向代理与upstream负载均衡配置.md) |
+| 操作系统与服务器篇 | 高 | [Nginx 限流指令 limit_req 与 limit_conn 的区别](server/Nginx限流指令limit_req与limit_conn的区别.md) |
 | 操作系统与服务器篇 | 高 | [PHP-FPM 进程模型与 FastCGI 协议](server/PHP-FPM进程模型与FastCGI协议.md) |
+| 操作系统与服务器篇 | 中 | [Nginx proxy_cache 缓存配置与失效策略](server/Nginx-proxy_cache缓存配置与失效策略.md) |
 | 安全篇 | 高 | [CC 攻击与应用层限流防护方案](security/CC攻击与应用层限流防护方案.md) |
 | Web 篇 | 高 | [PHP 框架中间件机制与洋葱模型](web/PHP框架中间件机制与洋葱模型.md) |
 | 番外篇 | 中 | [生产环境如何排查 Bug，以及如何在本地复现并调试](misc/生产环境排查Bug与本地调试工作流.md) |
 | 番外篇 | 低 | [AI 时代的 PHP 开发者：从工具选择到学习方法论](misc/AI时代的PHP开发者——从工具选择到学习方法论.md) |
 
-## L3 高级（25 题）
+## L3 高级（35 题）
 
 | 主题 | 频率 | 题目 |
 |---|:---:|---|
@@ -104,8 +122,18 @@
 | 设计模式篇 | 高 | [SRP的变化理由原则：如何量化职责边界](design-pattern/SRP的变化理由原则：如何量化职责边界.md) |
 | 设计模式篇 | 高 | [抽象类与接口的设计意图差异：PHP中的选型原则](design-pattern/抽象类与接口的设计意图差异：PHP中的选型原则.md) |
 | 设计模式篇 | 中 | [里氏替换原则的行为契约与继承陷阱](design-pattern/里氏替换原则的行为契约与继承陷阱.md) |
+| 存储与中间件篇 | 高 | [MySQL count() 的差异与大表计数优化](storage/MySQLcount差异与大表计数优化.md) |
+| 存储与中间件篇 | 高 | [MySQL 主从复制延迟的原因与解决](storage/MySQL主从复制延迟原因与解决.md) |
 | 存储与中间件篇 | 高 | [MySQL 一条查询语句的完整执行流程](storage/MySQL查询语句完整执行流程.md) |
+| 存储与中间件篇 | 高 | [MySQL 隐式类型转换导致索引失效](storage/MySQL隐式类型转换导致索引失效.md) |
 | 存储与中间件篇 | 高 | [ORDER BY 的执行原理与性能优化](storage/ORDERBY执行原理与filesort优化.md) |
+| 存储与中间件篇 | 高 | [读写分离下的一致性陷阱](storage/读写分离下的一致性陷阱.md) |
+| 存储与中间件篇 | 中 | [InnoDB 脏页刷新与 Checkpoint 机制](storage/InnoDB脏页刷新与Checkpoint机制.md) |
+| 架构与分布式篇 | 高 | [API网关的核心职责与设计原则](architecture/API网关的核心职责与设计原则.md) |
+| 架构与分布式篇 | 高 | [服务间通信选型：同步HTTP与gRPC对比异步MQ](architecture/服务间通信选型：同步HTTP与gRPC对比异步MQ.md) |
+| 架构与分布式篇 | 高 | [注册中心原理与选型：Consul、Nacos与Eureka对比](architecture/注册中心原理与选型：Consul、Nacos与Eureka对比.md) |
+| 架构与分布式篇 | 中 | [微服务拆分反模式：过度拆分、分布式单体与循环依赖](architecture/微服务拆分反模式：过度拆分、分布式单体与循环依赖.md) |
+| 架构与分布式篇 | 中 | [微服务服务边界划分：业务能力与DDD限界上下文](architecture/微服务服务边界划分：业务能力与DDD限界上下文.md) |
 | 安全篇 | 高 | [PHP 文件上传安全与输入过滤实践](security/PHP文件上传安全与输入过滤实践.md) |
 | Web 篇 | 高 | [Laravel 服务容器（IoC）的实现原理](web/Laravel服务容器IoC实现原理.md) |
 

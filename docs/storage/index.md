@@ -21,5 +21,10 @@
 
 | 频率 | 题目 |
 |:---:|---|
+| 高 | [MySQL count() 的差异与大表计数优化](MySQLcount差异与大表计数优化.md) |
+| 高 | [MySQL 主从复制延迟的原因与解决](MySQL主从复制延迟原因与解决.md) |
 | 高 | [MySQL 一条查询语句的完整执行流程](MySQL查询语句完整执行流程.md) |
+| 高 | [MySQL 隐式类型转换导致索引失效](MySQL隐式类型转换导致索引失效.md) |
 | 高 | [ORDER BY 的执行原理与性能优化](ORDERBY执行原理与filesort优化.md) |
+| 高 | [读写分离下的一致性陷阱](读写分离下的一致性陷阱.md) |
+| 中 | [InnoDB 脏页刷新与 Checkpoint 机制](InnoDB脏页刷新与Checkpoint机制.md) |
