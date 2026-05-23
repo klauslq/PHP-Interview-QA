@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "PHP 面试问答"
   text: "PHP 中大厂面试题库"
-  tagline: "89 道精选题 · L1–L5 难度全覆盖 · 系统化备战面试"
+  tagline: "95 道精选题 · L1–L5 难度全覆盖 · 系统化备战面试"
   actions:
     - theme: brand
       text: 按主题浏览 →
@@ -34,7 +34,7 @@ features:
 
   - icon: 🏛️
     title: 设计模式篇
-    details: 5 题 · L1–L3 · GoF 三大分类、工厂模式选型、SOLID 原则
+    details: 11 题 · L1–L3 · GoF 三大分类、工厂模式选型、SOLID 原则
     link: /docs/design-pattern/
     linkText: 开始学习
 

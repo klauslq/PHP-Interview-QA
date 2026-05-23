@@ -3,9 +3,9 @@
 [![GitHub Repo stars](https://img.shields.io/github/stars/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-96-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-105-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
-[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--20-green.svg)](#)
+[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--22-green.svg)](#)
 
 > PHP 很没前途，请把工作留给我，谢谢！
 
@@ -61,27 +61,6 @@
 | Web 篇 | [`docs/web/`](docs/web/) | 🟡 进行中 |
 | 安全篇 | [`docs/security/`](docs/security/) | 🟡 进行中 |
 | 番外篇 | [`docs/misc/`](docs/misc/) | 🟡 进行中 |
-
----
-
-## 考察频率分布
-
-> 🔴 高频（必备） 🟡 中频（常见） ⚪ 低频（偶尔） — = 暂无题目
-
-| 主题 | L1 | L2 | L3 | 合计 |
-|---|:---:|:---:|:---:|:---:|
-| PHP 语言篇 | 🔴×8 🟡×6 | 🔴×8 🟡×3 | 🔴×2 🟡×7 | **34** |
-| 计算机网络篇 | 🔴×3 | 🔴×3 🟡×2 | 🔴×4 | **12** |
-| 设计模式篇 | 🔴×5 | 🔴×1 | 🟡×1 | **7** |
-| 存储与中间件篇 | 🔴×3 | 🔴×5 | 🔴×2 | **10** |
-| Web 篇 | 🔴×2 | 🔴×1 | 🔴×1 | **4** |
-| 安全篇 | 🔴×1 | 🔴×1 | 🔴×1 | **3** |
-| 数据结构与算法篇 | 🔴×7 🟡×3 | 🔴×6 | 🟡×3 🔴×2 | **21** |
-| 操作系统与服务器篇 | 🔴×1 | 🔴×1 | — | **3** |
-| 架构与分布式篇 | — | — | — | **2** |
-| 番外篇 | — | 🟡×1 | ⚪×1 | **2** |
-
-> 随出题滚动更新。高频区域越密集，说明该方向面试考察概率越高，建议优先复习。
 
 ---
 
@@ -200,6 +179,12 @@
 | L3 | 中 | [里氏替换原则的行为契约与继承陷阱](docs/design-pattern/里氏替换原则的行为契约与继承陷阱.md) |
 | L1 | 高 | [Laravel 框架特性与 GoF 设计模式的对应关系](docs/design-pattern/Laravel框架特性与GoF设计模式的对应关系.md) |
 | L1 | 高 | [Laravel Facade 命名陷阱——它是"静态代理"还是"门面模式"？](docs/design-pattern/Laravel-Facade命名陷阱——静态代理还是门面模式.md) |
+| L2 | 高 | [PHP 单例模式为什么不需要处理线程安全？](docs/design-pattern/PHP单例模式为什么不需要处理线程安全.md) |
+| L2 | 中 | [建造者模式如何解决复杂对象的构造问题？](docs/design-pattern/建造者模式如何解决复杂对象的构造问题.md) |
+| L2 | 中 | [PHP clone 与原型模式：浅拷贝与深拷贝的实现差异](docs/design-pattern/PHP-clone与原型模式：浅拷贝与深拷贝的实现差异.md) |
+| L3 | 高 | [OCP的设计哲学：隔离变化点而非冻结代码](docs/design-pattern/OCP的设计哲学：隔离变化点而非冻结代码.md) |
+| L3 | 高 | [抽象类与接口的设计意图差异：PHP中的选型原则](docs/design-pattern/抽象类与接口的设计意图差异：PHP中的选型原则.md) |
+| L3 | 高 | [SRP的变化理由原则：如何量化职责边界](docs/design-pattern/SRP的变化理由原则：如何量化职责边界.md) |
 
 ---
 
@@ -288,11 +273,10 @@
 感谢所有为本项目提交过 PR / commit 的同学（头像由 GitHub 统计生成，点击可查看完整列表）：
 
 <a href="https://github.com/colinlet/PHP-Interview-QA/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=colinlet/PHP-Interview-QA" alt="PHP-Interview-QA contributors" />
+<img src="https://contrib.rocks/image?repo=colinlet/PHP-Interview-QA" alt="PHP-Interview-QA contributors" />
 </a>
 
-
-欢迎提 Issue 或 PR，贡献方式包括：
+### 欢迎提 Issue 或 PR，贡献方式包括：
 
 - 🐛 **勘误**：发现事实性错误、过时内容或失效链接
 - 💡 **新题建议**：提议新的面试题目
