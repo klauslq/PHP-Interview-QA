@@ -1,11 +1,11 @@
 # PHP 面试问答
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/colinlet/PHP-Interview-QA)](https://github.com/colinlet/PHP-Interview-QA/forks)
+[![Stars](https://img.shields.io/badge/Stars-2955-yellow?logo=github)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
+[![Forks](https://img.shields.io/badge/Forks-562-blue?logo=github)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-105-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-95-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
-[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--22-green.svg)](#)
+[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--23-green.svg)](#)
 
 > PHP 很没前途，请把工作留给我，谢谢！
 
