@@ -3,7 +3,7 @@
 [![Stars](https://img.shields.io/badge/Stars-2955-yellow?logo=github)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![Forks](https://img.shields.io/badge/Forks-562-blue?logo=github)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-123-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-147-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
 [![Last Updated](https://img.shields.io/badge/最后更新-2026--05--23-green.svg)](#)
 
@@ -201,6 +201,7 @@
 | L3 | 高 | [注册中心原理与选型：Consul、Nacos与Eureka对比](docs/architecture/注册中心原理与选型：Consul、Nacos与Eureka对比.md) |
 | L3 | 中 | [微服务拆分反模式：过度拆分、分布式单体与循环依赖](docs/architecture/微服务拆分反模式：过度拆分、分布式单体与循环依赖.md) |
 | L3 | 中 | [微服务服务边界划分：业务能力与DDD限界上下文](docs/architecture/微服务服务边界划分：业务能力与DDD限界上下文.md) |
+| L4 | 高 | [TCC 方案落地：空回滚、悬挂与幂等三类问题的量化代价与防范](docs/architecture/TCC方案落地：空回滚、悬挂与幂等三类问题的量化代价与防范.md) |
 | L4 | 中 | [单体拆分微服务后的分布式事务选型](docs/architecture/单体拆分微服务后的分布式事务选型.md) |
 | L5 | 中 | [短链系统设计：唯一短码生成方案的架构权衡](docs/architecture/短链系统设计：唯一短码生成方案的架构权衡.md) |
 
@@ -222,6 +223,11 @@
 | L2 | 高 | [Nginx 限流指令 limit_req 与 limit_conn 的区别](docs/server/Nginx限流指令limit_req与limit_conn的区别.md) |
 | L2 | 高 | [PHP-FPM 进程模型与 FastCGI 协议](docs/server/PHP-FPM进程模型与FastCGI协议.md) |
 | L2 | 中 | [Nginx proxy_cache 缓存配置与失效策略](docs/server/Nginx-proxy_cache缓存配置与失效策略.md) |
+| L3 | 高 | [Nginx 的 event-driven 模型与 epoll 多路复用原理](docs/server/Nginx-epoll多路复用与事件驱动模型.md) |
+| L3 | 高 | [Nginx master/worker 进程架构与信号处理机制](docs/server/Nginx-master-worker进程架构与信号处理.md) |
+| L3 | 高 | [Nginx 与 PHP-FPM 的 FastCGI 通信原理与 Unix Socket vs TCP 选型](docs/server/Nginx与PHP-FPM通信原理.md) |
+| L3 | 中 | [LVS 与 Nginx 负载均衡的层级差异与选型依据](docs/server/LVS与Nginx负载均衡层级对比.md) |
+| L3 | 中 | [Nginx 零拷贝与 sendfile 系统调用原理](docs/server/Nginx零拷贝与sendfile原理.md) |
 | L4 | 中 | [Swoole 协程与 PHP-FPM 的选型决策](docs/server/Swoole协程与PHP-FPM的选型决策.md) |
 
 ---
@@ -235,6 +241,12 @@
 | L1 | 高 | [XSS 攻击类型与防御方案](docs/security/XSS攻击类型与防御方案.md) |
 | L1 | 高 | [密码学基础概念辨析](docs/security/密码学基础概念辨析.md) |
 | L2 | 高 | [CC 攻击与应用层限流防护方案](docs/security/CC攻击与应用层限流防护方案.md) |
+| L2 | 高 | [Cookie 安全属性完整解析](docs/security/Cookie安全属性完整解析.md) |
+| L2 | 中 | [Session 劫持攻击向量与防护](docs/security/Session劫持攻击向量与防护.md) |
+| L2 | 中 | [Session 固定攻击与防御](docs/security/Session固定攻击与防御.md) |
+| L3 | 高 | [JWT Token 撤销机制选型](docs/security/JWT-Token撤销机制选型.md) |
+| L3 | 高 | [JWT alg:none 与算法混淆攻击](docs/security/JWT-alg攻击与算法混淆漏洞.md) |
+| L3 | 高 | [JWT 存储位置安全权衡](docs/security/JWT存储位置安全权衡.md) |
 | L3 | 高 | [PHP 文件上传安全与输入过滤实践](docs/security/PHP文件上传安全与输入过滤实践.md) |
 
 ---
@@ -243,10 +255,22 @@
 
 | 难度 | 频率 | 题目 |
 |:---:|:---:|---|
+| L1 | 高 | [$_SERVER 超全局变量中有哪些常用字段？分别有什么用途？](docs/web/$_SERVER超全局变量常用字段与用途.md) |
+| L1 | 高 | [HTTP 301、302、307 重定向状态码有什么语义差异？如何选择？](docs/web/HTTP301与302与307重定向的语义差异与选择.md) |
 | L1 | 高 | [HTTP 常见状态码含义与 301 和 302 的区别](docs/web/HTTP状态码含义与301和302的区别.md) |
 | L1 | 高 | [PHP 主流框架对比与选型概览](docs/web/PHP主流框架对比与选型概览.md) |
+| L1 | 高 | [X-Forwarded-For 与 REMOTE_ADDR 有什么区别？如何在代理场景下获取真实客户端 IP？](docs/web/X-Forwarded-For与REMOTE_ADDR的区别与代理IP获取.md) |
+| L1 | 高 | [header() 函数的作用是什么？为什么调用前不能有任何输出？](docs/web/header函数的作用与发送时机.md) |
+| L1 | 中 | [ob_start() 如何解决 headers already sent 问题？输出缓冲机制是怎样工作的？](docs/web/ob_start输出缓冲与header发送时机.md) |
 | L2 | 高 | [PHP 框架中间件机制与洋葱模型](docs/web/PHP框架中间件机制与洋葱模型.md) |
+| L2 | 高 | [PHP 框架请求生命周期各阶段职责与执行顺序是怎样的？](docs/web/PHP框架请求生命周期与各阶段职责.md) |
+| L2 | 高 | [PHP 框架路由是如何注册、匹配请求并提取 URI 参数的？](docs/web/PHP框架路由注册匹配与参数提取机制.md) |
+| L2 | 高 | [服务容器 bind、singleton、instance、make 各自的使用场景与区别是什么？](docs/web/服务容器bind与singleton与instance的用法与选型.md) |
+| L3 | 高 | [Laravel 中间件 Pipeline 如何通过 array_reduce 构造洋葱式闭包链？](docs/web/Laravel中间件Pipeline闭包链源码实现.md) |
 | L3 | 高 | [Laravel 服务容器（IoC）的实现原理](docs/web/Laravel服务容器IoC实现原理.md) |
+| L3 | 高 | [ORM 链式查询如何逐步拼装 SQL？Active Record 与 Data Mapper 有何本质区别？Eager Loading 如何消除 N+1？](docs/web/ORM链式查询构建与EagerLoading原理.md) |
+| L3 | 高 | [框架事件系统如何注册监听器、分发事件？同步事件与队列事件的内部路径有何差异？](docs/web/框架事件系统注册分发与队列事件实现原理.md) |
+| L3 | 高 | [路由匹配如何通过前缀树结构与正则预编译实现高性能查找？](docs/web/路由前缀树与正则预编译及路由缓存原理.md) |
 
 ---
 

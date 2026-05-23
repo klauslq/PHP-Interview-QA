@@ -1,8 +1,8 @@
 # 难度索引（L1 → L5）
 
-> 共 123 题，按难度分级 · 同级内按主题优先级排序
+> 共 147 题，按难度分级 · 同级内按主题优先级排序
 
-## L1 初级（41 题）
+## L1 初级（46 题）
 
 | 主题 | 频率 | 题目 |
 |---|:---:|---|
@@ -45,10 +45,15 @@
 | 安全篇 | 高 | [SQL 注入防御基础](security/SQL注入防御基础.md) |
 | 安全篇 | 高 | [XSS 攻击类型与防御方案](security/XSS攻击类型与防御方案.md) |
 | 安全篇 | 高 | [密码学基础概念辨析](security/密码学基础概念辨析.md) |
+| Web 篇 | 高 | [$_SERVER 超全局变量中有哪些常用字段？分别有什么用途？](web/$_SERVER超全局变量常用字段与用途.md) |
+| Web 篇 | 高 | [HTTP 301、302、307 重定向状态码有什么语义差异？如何选择？](web/HTTP301与302与307重定向的语义差异与选择.md) |
 | Web 篇 | 高 | [HTTP 常见状态码含义与 301 和 302 的区别](web/HTTP状态码含义与301和302的区别.md) |
 | Web 篇 | 高 | [PHP 主流框架对比与选型概览](web/PHP主流框架对比与选型概览.md) |
+| Web 篇 | 高 | [X-Forwarded-For 与 REMOTE_ADDR 有什么区别？如何在代理场景下获取真实客户端 IP？](web/X-Forwarded-For与REMOTE_ADDR的区别与代理IP获取.md) |
+| Web 篇 | 高 | [header() 函数的作用是什么？为什么调用前不能有任何输出？](web/header函数的作用与发送时机.md) |
+| Web 篇 | 中 | [ob_start() 如何解决 headers already sent 问题？输出缓冲机制是怎样工作的？](web/ob_start输出缓冲与header发送时机.md) |
 
-## L2 中级（44 题）
+## L2 中级（50 题）
 
 | 主题 | 频率 | 题目 |
 |---|:---:|---|
@@ -93,11 +98,17 @@
 | 操作系统与服务器篇 | 高 | [PHP-FPM 进程模型与 FastCGI 协议](server/PHP-FPM进程模型与FastCGI协议.md) |
 | 操作系统与服务器篇 | 中 | [Nginx proxy_cache 缓存配置与失效策略](server/Nginx-proxy_cache缓存配置与失效策略.md) |
 | 安全篇 | 高 | [CC 攻击与应用层限流防护方案](security/CC攻击与应用层限流防护方案.md) |
+| 安全篇 | 高 | [Cookie 安全属性完整解析](security/Cookie安全属性完整解析.md) |
+| 安全篇 | 中 | [Session 劫持攻击向量与防护](security/Session劫持攻击向量与防护.md) |
+| 安全篇 | 中 | [Session 固定攻击与防御](security/Session固定攻击与防御.md) |
 | Web 篇 | 高 | [PHP 框架中间件机制与洋葱模型](web/PHP框架中间件机制与洋葱模型.md) |
+| Web 篇 | 高 | [PHP 框架请求生命周期各阶段职责与执行顺序是怎样的？](web/PHP框架请求生命周期与各阶段职责.md) |
+| Web 篇 | 高 | [PHP 框架路由是如何注册、匹配请求并提取 URI 参数的？](web/PHP框架路由注册匹配与参数提取机制.md) |
+| Web 篇 | 高 | [服务容器 bind、singleton、instance、make 各自的使用场景与区别是什么？](web/服务容器bind与singleton与instance的用法与选型.md) |
 | 番外篇 | 中 | [生产环境如何排查 Bug，以及如何在本地复现并调试](misc/生产环境排查Bug与本地调试工作流.md) |
 | 番外篇 | 低 | [AI 时代的 PHP 开发者：从工具选择到学习方法论](misc/AI时代的PHP开发者——从工具选择到学习方法论.md) |
 
-## L3 高级（35 题）
+## L3 高级（47 题）
 
 | 主题 | 频率 | 题目 |
 |---|:---:|---|
@@ -134,13 +145,26 @@
 | 架构与分布式篇 | 高 | [注册中心原理与选型：Consul、Nacos与Eureka对比](architecture/注册中心原理与选型：Consul、Nacos与Eureka对比.md) |
 | 架构与分布式篇 | 中 | [微服务拆分反模式：过度拆分、分布式单体与循环依赖](architecture/微服务拆分反模式：过度拆分、分布式单体与循环依赖.md) |
 | 架构与分布式篇 | 中 | [微服务服务边界划分：业务能力与DDD限界上下文](architecture/微服务服务边界划分：业务能力与DDD限界上下文.md) |
+| 操作系统与服务器篇 | 高 | [Nginx 的 event-driven 模型与 epoll 多路复用原理](server/Nginx-epoll多路复用与事件驱动模型.md) |
+| 操作系统与服务器篇 | 高 | [Nginx master/worker 进程架构与信号处理机制](server/Nginx-master-worker进程架构与信号处理.md) |
+| 操作系统与服务器篇 | 高 | [Nginx 与 PHP-FPM 的 FastCGI 通信原理与 Unix Socket vs TCP 选型](server/Nginx与PHP-FPM通信原理.md) |
+| 操作系统与服务器篇 | 中 | [LVS 与 Nginx 负载均衡的层级差异与选型依据](server/LVS与Nginx负载均衡层级对比.md) |
+| 操作系统与服务器篇 | 中 | [Nginx 零拷贝与 sendfile 系统调用原理](server/Nginx零拷贝与sendfile原理.md) |
+| 安全篇 | 高 | [JWT Token 撤销机制选型](security/JWT-Token撤销机制选型.md) |
+| 安全篇 | 高 | [JWT alg:none 与算法混淆攻击](security/JWT-alg攻击与算法混淆漏洞.md) |
+| 安全篇 | 高 | [JWT 存储位置安全权衡](security/JWT存储位置安全权衡.md) |
 | 安全篇 | 高 | [PHP 文件上传安全与输入过滤实践](security/PHP文件上传安全与输入过滤实践.md) |
+| Web 篇 | 高 | [Laravel 中间件 Pipeline 如何通过 array_reduce 构造洋葱式闭包链？](web/Laravel中间件Pipeline闭包链源码实现.md) |
 | Web 篇 | 高 | [Laravel 服务容器（IoC）的实现原理](web/Laravel服务容器IoC实现原理.md) |
+| Web 篇 | 高 | [ORM 链式查询如何逐步拼装 SQL？Active Record 与 Data Mapper 有何本质区别？Eager Loading 如何消除 N+1？](web/ORM链式查询构建与EagerLoading原理.md) |
+| Web 篇 | 高 | [框架事件系统如何注册监听器、分发事件？同步事件与队列事件的内部路径有何差异？](web/框架事件系统注册分发与队列事件实现原理.md) |
+| Web 篇 | 高 | [路由匹配如何通过前缀树结构与正则预编译实现高性能查找？](web/路由前缀树与正则预编译及路由缓存原理.md) |
 
-## L4 资深（2 题）
+## L4 资深（3 题）
 
 | 主题 | 频率 | 题目 |
 |---|:---:|---|
+| 架构与分布式篇 | 高 | [TCC 方案落地：空回滚、悬挂与幂等三类问题的量化代价与防范](architecture/TCC方案落地：空回滚、悬挂与幂等三类问题的量化代价与防范.md) |
 | 架构与分布式篇 | 中 | [单体拆分微服务后的分布式事务选型](architecture/单体拆分微服务后的分布式事务选型.md) |
 | 操作系统与服务器篇 | 中 | [Swoole 协程与 PHP-FPM 的选型决策](server/Swoole协程与PHP-FPM的选型决策.md) |
 

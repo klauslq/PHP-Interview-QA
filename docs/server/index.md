@@ -22,6 +22,16 @@
 | 高 | [PHP-FPM 进程模型与 FastCGI 协议](PHP-FPM进程模型与FastCGI协议.md) |
 | 中 | [Nginx proxy_cache 缓存配置与失效策略](Nginx-proxy_cache缓存配置与失效策略.md) |
 
+## L3 高级
+
+| 频率 | 题目 |
+|:---:|---|
+| 高 | [Nginx 的 event-driven 模型与 epoll 多路复用原理](Nginx-epoll多路复用与事件驱动模型.md) |
+| 高 | [Nginx master/worker 进程架构与信号处理机制](Nginx-master-worker进程架构与信号处理.md) |
+| 高 | [Nginx 与 PHP-FPM 的 FastCGI 通信原理与 Unix Socket vs TCP 选型](Nginx与PHP-FPM通信原理.md) |
+| 中 | [LVS 与 Nginx 负载均衡的层级差异与选型依据](LVS与Nginx负载均衡层级对比.md) |
+| 中 | [Nginx 零拷贝与 sendfile 系统调用原理](Nginx零拷贝与sendfile原理.md) |
+
 ## L4 资深
 
 | 频率 | 题目 |
