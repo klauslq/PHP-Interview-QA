@@ -3,9 +3,9 @@
 [![Stars](https://img.shields.io/badge/Stars-2955-yellow?logo=github)](https://github.com/colinlet/PHP-Interview-QA/stargazers)
 [![Forks](https://img.shields.io/badge/Forks-562-blue?logo=github)](https://github.com/colinlet/PHP-Interview-QA/forks)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
-[![Questions](https://img.shields.io/badge/题目数-147-orange.svg)](#题目索引)
+[![Questions](https://img.shields.io/badge/题目数-148-orange.svg)](#题目索引)
 [![在线阅读](https://img.shields.io/badge/在线阅读-GitHub%20Pages-0969da?logo=github)](https://colinlet.github.io/PHP-Interview-QA/)
-[![Last Updated](https://img.shields.io/badge/最后更新-2026--05--23-green.svg)](#)
+[![Last Updated](https://img.shields.io/badge/最后更新-2026--06--04-green.svg)](#)
 
 > PHP 很没前途，请把工作留给我，谢谢！
 
@@ -184,6 +184,7 @@
 | L3 | 高 | [ORDER BY 的执行原理与性能优化](docs/storage/ORDERBY执行原理与filesort优化.md) |
 | L3 | 高 | [读写分离下的一致性陷阱](docs/storage/读写分离下的一致性陷阱.md) |
 | L3 | 中 | [InnoDB 脏页刷新与 Checkpoint 机制](docs/storage/InnoDB脏页刷新与Checkpoint机制.md) |
+| L4 | 高 | [缓存与数据库双写一致性方案如何选型？](docs/storage/缓存与数据库双写一致性方案选型.md) |
 
 ---
 
